@@ -1,0 +1,210 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="{% static 'main_app/css/index.css' %}" />
+    <title>EventMaster - Crafting Unforgettable Experiences</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="logo">EventMaster</div>
+        <nav>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#events">Events</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <h1>Crafting Unforgettable Experiences</h1>
+        <p>
+          From intimate gatherings to grand celebrations, we bring your vision
+          to life
+        </p>
+        <a href="#" class="btn">Explore Our Events</a>
+      </div>
+    </section>
+
+    <section id="events" class="featured-events">
+      <div class="container">
+        <h2 class="section-title">Upcoming Events</h2>
+        <div class="event-grid">
+          <div class="event-card">
+            <img
+              src="https://source.unsplash.com/600x400/?concert"
+              alt="Summer Music Festival"
+            />
+            <div class="event-card-content">
+              <h3>Summer Music Festival</h3>
+              <p class="event-date">July 15-17, 2023</p>
+              <p>
+                Experience three days of non-stop music from top artists across
+                multiple genres.
+              </p>
+              <a href="#" class="btn">Learn More</a>
+            </div>
+          </div>
+          <div class="event-card">
+            <img
+              src="https://source.unsplash.com/600x400/?conference"
+              alt="Tech Innovation Summit"
+            />
+            <div class="event-card-content">
+              <h3>Tech Innovation Summit</h3>
+              <p class="event-date">August 5-6, 2023</p>
+              <p>
+                Join industry leaders and innovators to explore the future of
+                technology.
+              </p>
+              <a href="#" class="btn">Learn More</a>
+            </div>
+          </div>
+          <div class="event-card">
+            <img
+              src="https://source.unsplash.com/600x400/?food-festival"
+              alt="Culinary Delights Expo"
+            />
+            <div class="event-card-content">
+              <h3>Culinary Delights Expo</h3>
+              <p class="event-date">September 10, 2023</p>
+              <p>
+                Indulge in a gastronomic journey featuring cuisines from around
+                the world.
+              </p>
+              <a href="#" class="btn">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="services">
+      <div class="container">
+        <h2 class="section-title">Our Services</h2>
+        <div class="service-grid">
+          <div class="service-item">
+            <div class="service-icon">📅</div>
+            <h3>Event Planning</h3>
+            <p>
+              Comprehensive planning and coordination for events of all sizes.
+            </p>
+          </div>
+          <div class="service-item">
+            <div class="service-icon">🎭</div>
+            <h3>Entertainment Booking</h3>
+            <p>Access to a wide network of performers and entertainers.</p>
+          </div>
+          <div class="service-item">
+            <div class="service-icon">🍽️</div>
+            <h3>Catering Services</h3>
+            <p>Exquisite menu planning and food service for your events.</p>
+          </div>
+          <div class="service-item">
+            <div class="service-icon">📸</div>
+            <h3>Photography & Videography</h3>
+            <p>Capture your special moments with our professional team.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="testimonials" class="testimonials">
+      <div class="container">
+        <h2 class="section-title">What Our Clients Say</h2>
+        <div class="testimonial-grid">
+          <div class="testimonial-item">
+            <p class="testimonial-content">
+              "EventMaster turned our vision into reality. The attention to
+              detail and professionalism were outstanding!"
+            </p>
+            <p class="testimonial-author">- Sarah Johnson, Corporate Event</p>
+          </div>
+          <div class="testimonial-item">
+            <p class="testimonial-content">
+              "Our wedding was absolutely perfect thanks to the incredible team
+              at EventMaster. We couldn't be happier!"
+            </p>
+            <p class="testimonial-author">- Mark and Emily, Newlyweds</p>
+          </div>
+          <div class="testimonial-item">
+            <p class="testimonial-content">
+              "The music festival exceeded all expectations. EventMaster's
+              organization and execution were flawless."
+            </p>
+            <p class="testimonial-author">- Alex Turner, Festival Organizer</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="cta">
+      <div class="container">
+        <h2>Ready to Create Your Perfect Event?</h2>
+        <p>
+          Let's bring your vision to life. Contact us today for a free
+          consultation.
+        </p>
+        <a href="#" class="btn">Get in Touch</a>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h3>About Us</h3>
+            <p>
+              EventMaster is dedicated to creating unforgettable experiences
+              through expert event planning and execution.
+            </p>
+          </div>
+          <div class="footer-section">
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#events">Events</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#testimonials">Testimonials</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h3>Contact Us</h3>
+            <p>Email: info@eventmaster.com</p>
+            <p>Phone: (123) 456-7890</p>
+            <p>Address: 123 Event St, City, State 12345</p>
+          </div>
+          <div class="footer-section">
+            <h3>Follow Us</h3>
+            <div class="social-icons">
+              <a href="#" aria-label="Facebook">📘</a>
+              <a href="#" aria-label="Twitter">🐦</a>
+              <a href="#" aria-label="Instagram">📷</a>
+              <a href="#" aria-label="LinkedIn">💼</a>
+            </div>
+          </div>
+        </div>
+        <div class="copyright">
+          <p>&copy; 2023 EventMaster. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      // JavaScript for header scroll effect
+      window.addEventListener("scroll", function () {
+        const header = document.querySelector("header");
+        header.classList.toggle("scrolled", window.scrollY > 0);
+      });
+    </script>
+  </body>
+</html>
